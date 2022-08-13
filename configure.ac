@@ -1,6 +1,9 @@
 AC_INIT([mate-backgrounds],
-	[1.26.0],
-	[http://www.mate-desktop.org])
+        [1.26.0],
+        [https://github.com/Libre-MATE/mate-backgrounds/issues],
+        [mate-backgrounds],
+        [https://github.com/Libre-MATE/mate-backgrounds/])
+
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 
