@@ -3,7 +3,7 @@ AC_INIT([mate-backgrounds],
         [https://github.com/Libre-MATE/mate-backgrounds/issues],
         [mate-backgrounds],
         [https://github.com/Libre-MATE/mate-backgrounds/])
-
+AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 
