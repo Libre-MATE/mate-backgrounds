@@ -21,13 +21,11 @@ AC_INIT([mate-backgrounds],
         [mate-backgrounds],
         [https://github.com/Libre-MATE/mate-backgrounds/])
 AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
-m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
-AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
+AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-xz tar-ustar silent-rules check-news])
+AM_MAINTAINER_MODE
 
 AM_GNU_GETTEXT_VERSION([0.19.8])
 AM_GNU_GETTEXT([external])
-
-AM_MAINTAINER_MODE
 
 AC_CONFIG_FILES([
 Makefile
