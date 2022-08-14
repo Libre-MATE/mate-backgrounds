@@ -25,9 +25,7 @@ install-data-local:
 
 EXTRA_DIST = \
 	its \
-	autogen.sh \
-	meson.build \
-	po/meson.build
+	autogen.sh
 
 MAINTAINERCLEANFILES = \
 	Makefile.in \

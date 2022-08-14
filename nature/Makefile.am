@@ -26,8 +26,7 @@ CLEANFILES = mate-nature.xml mate-nature.xml.in
 
 EXTRA_DIST = \
 	$(background_DATA) \
-	mate-nature.xml.in.in \
-	meson.build
+	mate-nature.xml.in.in
 
 mate-nature.xml.in: mate-nature.xml.in.in Makefile
 	$(AM_V_GEN)sed -e 's^\@datadir\@^$(datadir)^g' < $(srcdir)/mate-nature.xml.in.in > mate-nature.xml.in.tmp \

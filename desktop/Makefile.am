@@ -23,8 +23,7 @@ CLEANFILES = mate-desktop.xml mate-desktop.xml.in
 
 EXTRA_DIST = \
 	$(background_DATA) \
-	mate-desktop.xml.in.in \
-	meson.build
+	mate-desktop.xml.in.in
 
 mate-desktop.xml.in: mate-desktop.xml.in.in Makefile
 	$(AM_V_GEN)sed -e 's^\@datadir\@^$(datadir)^g' < $(srcdir)/mate-desktop.xml.in.in > mate-desktop.xml.in.tmp \
